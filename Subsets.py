@@ -1,5 +1,6 @@
 def calcSubset(A, res, subset, index):
     # Add the current subset to the result list
+    
     res.append(subset[:])
 
     # Generate subsets by recursively including and excluding elements
